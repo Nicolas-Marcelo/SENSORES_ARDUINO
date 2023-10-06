@@ -101,40 +101,52 @@ void limpar (void) {
 
 void setup() {
 
-  bool condicao = true
+  bool condicao = true;
 
 }
 
 void loop() {
 
+  bool condicao = true;
   while (condicao){
+    limpar();
     numero_zero();
     delay(2000);
+    limpar();
     
     numero_um();
     delay(2000);
+    limpar();
     
     numero_dois();
     delay(2000);
+    limpar();
     
     numero_tres();
     delay(2000);
+    limpar();
     
     numero_quatro();
     delay(2000);
+    limpar();
     
     numero_cinco();
     delay(2000);
+    limpar();
     
     numero_seis();
     delay(2000);
+    limpar();
     
     numero_sete();
     delay(2000);
+    limpar();
 
     numero_oito();
     delay(2000);
+    limpar();
 
     numero_nove();
     delay(2000);
+    limpar();
 }}
